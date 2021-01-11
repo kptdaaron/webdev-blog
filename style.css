@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Norican&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #262626;
+}
+
+footer {
+  color: #fff;
+  background-color: #000;
+}
+
+.container {
+  margin: 0;
+  width: 90%;
+  overflow: hidden;
+}
+
+.container img {
+  width: 100%;
+}
+
+.header {
+  color: #000000;
+}
+
+h4 {
+  font-size: 1.5em;
+  margin: 0px;
+  padding: 15px;
+}
+
+h3 {
+  font-size: 1.5em;
+  background-color: #fff;
+  margin: 0px;
+  padding: 15px;
+}
+
+#parallax-p {
+  margin: 0;
+  padding: 0;
+}
+
+.section-white {
+  padding: 10px;
+}
+
+.card-image {
+  height: 400px;
+}
+
+.carousel {
+  height: auto;
+}
+
+.carousel .carousel-item {
+  width: 100%;
+}
+
+.responsive {
+  display: inline-flex;
+}
+
+@media only screen and (max-width: 992px) {
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 568px) {
+  .navbar-nav {
+    display: none;
+  }
+}
+
+@media (min-width: 568px) {
+}
