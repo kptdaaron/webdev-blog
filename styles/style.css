@@ -12,6 +12,10 @@ body {
   background-color: #000;
 }
 
+input[type=text] {
+  color: #fff;
+}
+
 #slide-out {
   background-color: #fff;
   width: 216px !important;
